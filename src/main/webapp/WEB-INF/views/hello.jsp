@@ -11,6 +11,6 @@
     <title>Spring MVC Demo - Test</title>
 </head>
 <body>
-
+    <h1>My first Spring MVC controller Page</h1>
 </body>
 </html>
