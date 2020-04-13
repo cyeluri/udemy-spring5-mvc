@@ -9,8 +9,11 @@
 <html>
 <head>
     <title>Hello World - Input Form</title>
+    <link href="${pageContext.request.contextPath}/resources/css/default.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<img src="${pageContext.request.contextPath}/resources/images/spring-logo.png" class="springImgStyle">
+<br>
     <form action="processFormV2" method="get">
         <input type="text" name="studentName" placeholder="Whats your name?">
         <input type="submit">

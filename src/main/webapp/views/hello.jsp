@@ -9,8 +9,12 @@
 <html>
 <head>
     <title>Spring MVC Demo - Test</title>
+    <link href="${pageContext.request.contextPath}/resources/css/default.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <img src="${pageContext.request.contextPath}/resources/images/spring-logo.png" class="springImgStyle">
+    <br>
     <h1>My first Spring MVC controller Page</h1>
+
 </body>
 </html>
