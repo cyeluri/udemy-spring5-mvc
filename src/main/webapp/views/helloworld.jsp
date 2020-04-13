@@ -12,7 +12,7 @@
 </head>
 <body>
 HELLO world of spring
-<bre></bre>
-Student Name : ${param.studentName}
+<br><br>
+The message : ${message}
 </body>
 </html>
